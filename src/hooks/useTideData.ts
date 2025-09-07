@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import dayjs from 'dayjs';
 import type { Location, TideData } from '../types';
 
-const API_KEY = 'a4a0fbc0-255f-42d2-89d4-2201158e7180';
+const API_KEY = '288dc9d6-a17a-4cac-8443-e181911de674';
 const BASE_URL = 'https://www.worldtides.info/api/v3';
 
 export const useTideData = (location: Location | null) => {
